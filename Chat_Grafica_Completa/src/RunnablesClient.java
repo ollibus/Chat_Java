@@ -38,7 +38,7 @@ public class RunnablesClient implements Runnable {
                 Area.append(in.readLine() + "\n");
             }
         } catch (IOException ex) {
-            System.out.println("EchoServer: chiudo...");
+            System.out.println("EchoServer: chiudo... ");
             Logger.getLogger(Runnables.class.getName()).log(Level.SEVERE, null, ex);
         }
 
