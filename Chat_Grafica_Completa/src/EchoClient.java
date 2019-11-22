@@ -17,7 +17,7 @@ remota */
     public EchoClient(String str) {
         super("Chat di " + str);
         user = new ArrayList<>();
-        indirizzo = "172.16.3.225";
+        indirizzo = "172.16.3.226";
         user.add(str);
             
         try {
